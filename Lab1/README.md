@@ -36,19 +36,19 @@ Maxresultatet är imponerande, men minimivärdet visar att vissa episoder fortfa
 
 Jag kommer även att gå igenom bilder på hur träningen har sett ut i form av plots. Man kan se en viss förbättring och försämring på vissa fronter:
 
-![Bild 1](data\rewards_episodes_1_to_2000.png)
+![Bild 1](data/rewards_episodes_1_to_2000.png)
 ![Bild 2](data/rewards_episodes_2001_to_4000.png)
-![Bild 3](data\rewards_episodes_4001_to_6000.png)
-![Bild 4](data\rewards_episodes_6001_to_8000.png)
-![Bild 5](data\rewards_episodes_8001_to_10000.png)
+![Bild 3](data/rewards_episodes_4001_to_6000.png)
+![Bild 4](data/rewards_episodes_6001_to_8000.png)
+![Bild 5](data/rewards_episodes_8001_to_10000.png)
 
 I början kan man se hur agenten startar upp och blir ganska bra rätt snabbt. Det ger en bra indikation på att den har lärt sig något som fungerar och bygger vidare på detta. Dock kan man se att de andra fyra bilderna ser ganska lika ut. Detta får mig att fundera på om modellen har blivit overfit genom att göra samma sak för att få belöningar. Mellan bild 2 och 5 ser vi dock att de högsta topparna minskar medan de lägsta topparna höjs. Kan det vara så att agenten blir mer säker på sin strategi?
 
-![Bild 5](data\normalfördelning.png)
+![Bild 5](data/normalfördelning.png)
 
 En normaliserad bell plot visar att belöningarna är normalfördelade, vilket är förväntat med tillräckligt många episoder. Dock sticker en stapel ut innan en tydlig dipp. Detta kan tyda på antingen tur i en episod eller att en ny strategi testades som sedan övergavs.
 
-![Bild 5](data\kumulativ_fördelning.png)
+![Bild 5](data/kumulativ_fördelning.png)
 
 Vi kan även se i våra kumulativa belöningar att den går stadigt uppåt under hela träningen. Detta kan vara bekymmersamt. Har modellen fastnat i en overfit? Om vi tittar tillbaka på resultaten kan det kanske stämma. Den blir bra rätt snabbt men visar inte mycket förbättring efter cirka 6000 episoder. Vad kan ha gått fel, eller är jag förskeptisk och letar efter en overfit när det egentligen inte finns en?
 
