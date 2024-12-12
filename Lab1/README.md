@@ -50,7 +50,7 @@ En normaliserad bell plot visar att belöningarna är normalfördelade, vilket �
 
 ![Bild 5](data/kumulativ_fördelning.png)
 
-Vi kan även se i våra kumulativa belöningar att den går stadigt uppåt under hela träningen. Detta kan vara bekymmersamt. Har modellen fastnat i en overfit? Om vi tittar tillbaka på resultaten kan det kanske stämma. Den blir bra rätt snabbt men visar inte mycket förbättring efter cirka 6000 episoder. Vad kan ha gått fel, eller är jag förskeptisk och letar efter en overfit när det egentligen inte finns en?
+Vi kan även se i våra kumulativa belöningar att den går stadigt uppåt under hela träningen. Detta kan vara bekymmersamt. Har modellen fastnat i en overfit? Om vi tittar tillbaka på resultaten kan det kanske stämma. AI:n agenten blir bra rätt snabbt men visar inte mycket förbättring efter cirka 6000 episoder. Vad kan ha gått fel? Behövs den tränas mer, eller är jag förskeptisk och letar efter en overfit när det egentligen inte finns en?
 
 # Slutsats
 
