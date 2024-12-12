@@ -1,4 +1,4 @@
-** Projektöversikt
+# Projektöversikt
 
 Detta projekt handlar om att utveckla en AI-agent med Deep Q-Learning (DQN) för att spela Atari 2600-spelet "Space Invaders". Syftet är att skapa en agent som kan maximera sina belöningar genom att fatta intelligenta beslut baserade på tidigare erfarenheter. För att uppnå detta har jag använt Gymnasium-ramverket och integrerat flera tekniker som är specifikt anpassade för detta problem.
 
@@ -17,7 +17,7 @@ Testing sker efter att modellen har tränats klart. Agentens prestation utvärde
 Under designen har jag tagit hänsyn till faktorer som effektivitet och precision. Genom att använda mixed-precision träning via torch.amp.GradScaler minskar beräkningskostnaderna på moderna GPU:er samtidigt som resultatet blir korrekt.
 
 
-** Data utforskning
+# Data utforskning
 Datautforskning
 
 Jag har även gjort lite dataanalys. Här kan vi se högsta, minsta, medelvärde och standardavvikelse:
@@ -52,7 +52,7 @@ En normaliserad bell plot visar att belöningarna är normalfördelade, vilket �
 
 Vi kan även se i våra kumulativa belöningar att den går stadigt uppåt under hela träningen. Detta kan vara bekymmersamt. Har modellen fastnat i en overfit? Om vi tittar tillbaka på resultaten kan det kanske stämma. Den blir bra rätt snabbt men visar inte mycket förbättring efter cirka 6000 episoder. Vad kan ha gått fel, eller är jag förskeptisk och letar efter en overfit när det egentligen inte finns en?
 
-** Slutsats
+# Slutsats
 
 Träningen av modellen tog endast 8 timmar att genomföra på min NVIDIA 4080 Super GPU.
 
