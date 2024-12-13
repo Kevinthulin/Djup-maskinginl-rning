@@ -46,7 +46,7 @@ I början kan man se hur agenten startar upp och blir ganska bra rätt snabbt. D
 
 ![Bild 5](data/normalfördelning.png)
 
-En normaliserad bell plot visar att belöningarna är normalfördelade, vilket är förväntat med tillräckligt många episoder. Dock sticker en stapel ut innan en tydlig dipp. Detta kan tyda på antingen tur i en episod eller att en ny strategi testades som sedan övergavs.
+En normaliserad bell plot visar att belöningarna är normalfördelade, vilket är förväntat med tillräckligt många episoder.
 
 ![Bild 5](data/kumulativ_fördelning.png)
 
