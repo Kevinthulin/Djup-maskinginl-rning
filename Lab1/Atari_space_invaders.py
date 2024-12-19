@@ -255,7 +255,7 @@ class SpaceInvadersDQN:
     def load_model(self, filepath='space_invaders_dqn.bin'):
         self.main_network.load_state_dict(torch.load(filepath, map_location=self.device))
         print(f"Model loaded from {filepath}")
-    def save_rewards(self, filepath='data_analasys.npy'):
+    def save_rewards(self, filepath='data_analysis.npy'):
         np.save(filepath, self.episode_rewards)
         print(f"Rewards saved to {filepath}")
 
